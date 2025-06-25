@@ -2,11 +2,6 @@
 
 The Feedback Management System is a web application that allows users to submit feedback and view all feedback entries. The project is built with a Node.js backend using Express and TypeScript and a React frontend using TypeScript. The backend manages the feedback entries, and the frontend provides a user interface for submitting and viewing feedback.
 
-## Cloning Instructions
-
-```bash
-git clone https://github.com/exclusiveabhi/feedback-system.git
-```
 
 ## Setup Instructions
 
@@ -47,7 +42,7 @@ git clone https://github.com/exclusiveabhi/feedback-system.git
 
 5. **Verify the server is running:**
 
-    Open your browser or use a tool like Postman to navigate to `http://localhost:3000/feedback`. You should see an empty array (since there are no feedback entries initially).
+    Open your browser or use a tool like Postman to navigate to `http://localhost:3000`. You should see an empty array (since there are no feedback entries initially).
 
 ### Frontend Setup
 
@@ -107,14 +102,3 @@ git clone https://github.com/exclusiveabhi/feedback-system.git
 - **Body**: `{ name: string, feedback: string }`
 - **Response**: Adds a new feedback entry and returns the updated list of feedback.
 
-## Example Usage
-
-### Submitting Feedback
-
-Send a POST request to `http://localhost:3000/feedback` with the following body:
-
-```json
-{
-    "name": "Abhishek",
-    "feedback": "Great !"
-}
